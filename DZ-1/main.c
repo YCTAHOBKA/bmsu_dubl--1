@@ -16,7 +16,7 @@ int main()
                 arr[i][f]=0;
             }
         }
-    printf("Введите десятичные числа:\n");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г¤ГҐГ±ГїГІГЁГ·Г­Г»ГҐ Г·ГЁГ±Г«Г :\n");
     while((c=getchar()) != EOF){
           if(c!='\n'){
             arr[a][b]=c;
@@ -27,12 +27,12 @@ int main()
                 b=0;
           }
     }
-    printf("Десятичные числа\n");
+    printf("Г„ГҐГ±ГїГІГЁГ·Г­Г»ГҐ Г·ГЁГ±Г«Г \n");
         for(int i=0;i<a;i++){
                         printf("%s",arr[i]);
             printf("\n");
         }
-        printf("Двоичные числа\n");
+        printf("Г„ГўГ®ГЁГ·Г­Г»ГҐ Г·ГЁГ±Г«Г \n");
         int f=0;
         for(int i=0;i<a; i++){
             while(arr[i][f]!=0){
